@@ -1,0 +1,57 @@
+{
+    "users": {
+        "boss": "123",
+        "worker": "123"
+    },
+    "demands": [],
+    "services": [],
+    "orders": [
+        {
+            "id": 1770458339,
+            "buyer": "11",
+            "seller": "worker",
+            "title": "111",
+            "price": "111",
+            "status": "已完成",
+            "time": "2026-02-07"
+        }
+    ],
+    "chat_rooms": {
+        "11_worker": [
+            {
+                "sender": "System",
+                "text": "✅ 接单成功",
+                "time": "2026-02-07 17:58:59.562647"
+            },
+            {
+                "sender": "System",
+                "text": "🔔 交付通知：【111】已交付",
+                "time": "2026-02-07 17:59:15.809402"
+            },
+            {
+                "sender": "System",
+                "text": "💰 验收通知：【111】已完成",
+                "time": "2026-02-07 17:59:21.073953"
+            }
+        ]
+    },
+    "unread": {
+        "11": {
+            "worker": 0
+        },
+        "worker": {
+            "11": 0
+        }
+    },
+    "chat_contexts": {
+        "11_worker": {
+            "type": "demand",
+            "data": {
+                "id": 1770458329,
+                "user": "11",
+                "title": "111",
+                "budget": "111"
+            }
+        }
+    }
+}
